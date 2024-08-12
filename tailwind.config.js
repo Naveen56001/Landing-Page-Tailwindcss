@@ -1,0 +1,17 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx}',
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        playfair: "'playfair Display', serif",
+        lato: "'Lato', sans-serif",
+      }
+    },
+  },
+  plugins: [],
+}
+
